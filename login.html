@@ -2,21 +2,24 @@
 <html>
 <head>
 	<title>bla</title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
 </head>
 <body>
 	<form>
+		<div class="textbox">
 		<p>
-			<label>tb1</label>
-			<input type="text" name="user">
+			<label >email</label>
+			<input type="email"  pattern="[^ @]*@[^ @]*"name="user">
 		</p>
 		<p>
-			<label>tb2</label>
-			<input type="text" name="pass">
+			<label >password</label>
+			<input type="password" name="pass" minlength="8">
 		</p> 	
 	</form>
 	<form>
 		admin<input type="radio" value="admin" name="abc">
 		infodesk<input type="radio" value="infodesk" name="abc">
 	</form>
+</div>
 </body>
 </html>
